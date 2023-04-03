@@ -14,7 +14,7 @@ on:
     types: [started]
 
 env:
-  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-10.0
+  MANIFEST: git://https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-10.0
   DEVICE: X688B
   DT_LINK: https://github.com/TECHPARVEJ/twrp_device_infinix_X688B
   DT_PATH: device/xiaomi/X688B
