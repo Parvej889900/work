@@ -14,15 +14,15 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/mastersenpai0405/fox_device_xiaomi_chopin'
+        default: 'https://github.com/TECHPARVEJ/twrp_device_infinix_X665E'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-12'
+        default: 'twrp-12.1'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/xiaomi/chopin'
+        default: 'device/infinix/X665E'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -32,7 +32,7 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'chopin'
+        default: 'X665E'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
