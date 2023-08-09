@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/Parvej889900/twrp_device_doogee_s98pro/tree/main'
+        default: 'https://github.com/Parvej889900/twrp_device_doogee_s98pro'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
